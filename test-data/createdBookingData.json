@@ -1,0 +1,14 @@
+{
+  "bookingid": 2219,
+  "booking": {
+    "firstname": "Abagail",
+    "lastname": "Nicolas",
+    "totalprice": 1664,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2025-01-24",
+      "checkout": "2025-01-24"
+    },
+    "additionalneeds": "Lunch"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "pw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:crudApi": "node utils/generatePostData.js && npx playwright test --reporter=html --project=chromium createBooking.spec.js && npx playwright test getBooking.spec.js && npx playwright test updateBooking.spec.js && npx playwright test deleteBooking.spec.js",
+    "test:crudApi2": "node utils/generatePostData.js && npx playwright test --reporter=html --project=chromium createBooking.spec.js getBooking.spec.js updateBooking.spec.js deleteBooking.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.4.0",
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.5"
+  },
+  "dependencies": {
+    "luxon": "^3.5.0"
+  }
+}
